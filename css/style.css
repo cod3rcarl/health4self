@@ -1,0 +1,130 @@
+html, body {
+
+background:url("../img/1healthy.jpg") center center no-repeat;
+height: 100%;
+background-size: cover;
+}
+
+@media(max-width:768px) {
+
+img {
+    width:50%;
+
+}
+.countdown, p{
+
+    font-size: 1.4rem !important;
+}
+}
+
+@media(min-width:319px)
+and (max-width:568px)
+{
+    img {
+
+        width: 30%;
+    }
+
+p, .countdown{
+
+    font-size: 1rem !important;
+ }
+
+ ion-icon {
+     margin: 5px 0 !important;
+     font-size: 2em;
+ }
+}
+
+#logo, img { 
+
+    padding-top: 20px;
+}
+
+#intro, p {
+    color: white;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    padding: 10px;
+    text-shadow:2px 2px 4px black;
+    font-size: 25px;
+}
+
+#counter, .countdown {
+    text-align: center;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    text-shadow:2px 2px 4px black;
+    font-size: 40px;
+    margin-top: -15px;
+}
+
+#icons {
+
+    text-align: center;
+
+}
+
+#icons, .list-inline-item {
+
+    color: white;
+    margin: 5px 20px;
+    
+}
+
+ion-icon {
+    font-size: 32px;
+    color: #ECF0F1 ;
+    position: relative;
+    bottom: 0px;
+    transition: all 0.2s ease-in-out;
+   
+
+  }
+
+
+ #icons, .twitter:hover {
+
+color:#6cadde;
+bottom: 5px;
+  }
+
+#icons, .facebook:hover {
+
+color:#3b5998;
+bottom: 5px;
+      }
+
+
+#icons, .linkedin:hover {
+
+color:#0077b5;
+bottom: 5px;
+              }
+
+ #icons, .instagram:hover {
+
+color:black;
+bottom: 5px;
+                              }
+#sign-up {
+
+    text-align: center;
+}
+
+#sign-up, .form-inline {
+
+    display: block;
+}
+
+.btn {
+
+    background-color: rgba(161,186,226,0.5);
+    color: white;
+}
+
+.btn:hover {
+
+    background-color: rgba(37,165,82,1);
+    color: white;
+}
